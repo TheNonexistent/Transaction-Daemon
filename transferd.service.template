@@ -1,0 +1,14 @@
+Description=Transfer Daemon Service
+
+[Service]
+Type=simple
+ExecStart=/opt/transaction-daemon/daemon.py
+WorkingDirectory=/opt/transaction-daemon/runtime
+#Environment=API_KEY=123456789
+#Environment=API_PASS=password
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=sysinit.target
+

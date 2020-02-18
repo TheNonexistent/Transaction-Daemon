@@ -1,0 +1,7 @@
+cffi==1.13.2
+cryptography==2.8
+hiredis==1.0.1
+mysql-connector==2.2.9
+pycparser==2.19
+redis==3.3.11
+six==1.14.0
