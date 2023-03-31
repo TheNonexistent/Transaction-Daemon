@@ -3,5 +3,5 @@ cryptography==2.8
 hiredis==1.0.1
 mysql-connector==2.2.9
 pycparser==2.19
-redis==3.3.11
+redis==4.4.4
 six==1.14.0
